@@ -8,4 +8,9 @@ class WorldsWorstComparatorTest {
     void compare() {
         assertEquals(-1, 1);
     }
+    @Test
+    void compareAgain() {
+        assertEquals(-1, -1);
+    }
+
 }
